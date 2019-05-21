@@ -21,10 +21,13 @@ double netpay;
 printf("Welcome to the Payment Calculator! \n");
 printf("Please enter the hours worked. \n");
 scanf("%lf", &hours);
+
 //processing
 grosspay = (pay*hours);
 deductedtax = (withheldpay*grosspay);
 netpay = (grosspay - deductedtax);
+
+//termination
 printf("   Gross Pay: $%.2lf \n", grosspay);
 printf("Deducted Tax: $%.2lf \n", deductedtax);
 printf("     Net Pay: $%.2lf \n", netpay);
