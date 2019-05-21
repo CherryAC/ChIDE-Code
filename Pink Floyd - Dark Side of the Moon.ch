@@ -106,6 +106,6 @@ plot.strokeColor("#5DADE2");
 plot.fillOpacity(0.01);
 plot.triangle(310, 260, 500, 875, 690, 260);
 
-
+//This is what needs to be coded last in order for the graph to generate
 plot.plotting();
 
